@@ -58,10 +58,10 @@ F 3 "~" H 5000 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C3
+L Device:CP_Small C5
 U 1 1 659CE970
 P 5500 4250
-F 0 "C3" H 5588 4296 50  0000 L CNN
+F 0 "C5" H 5588 4296 50  0000 L CNN
 F 1 "47uF" H 5588 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 5500 4250 50  0001 C CNN
 F 3 "~" H 5500 4250 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 5500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C5
+L Device:CP_Small C7
 U 1 1 659CF957
 P 6000 4000
-F 0 "C5" H 6088 4046 50  0000 L CNN
+F 0 "C7" H 6088 4046 50  0000 L CNN
 F 1 "100uF" H 6088 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x6.9" H 6000 4000 50  0001 C CNN
 F 3 "~" H 6000 4000 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" V 4500 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L Device:C_Small C3
 U 1 1 659D295C
 P 4000 4000
-F 0 "C1" H 4092 4046 50  0000 L CNN
+F 0 "C3" H 4092 4046 50  0000 L CNN
 F 1 "1uF" H 4092 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4000 4000 50  0001 C CNN
 F 3 "~" H 4000 4000 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "~" H 5000 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C4
+L Device:CP_Small C6
 U 1 1 659D3E6A
 P 5500 4750
-F 0 "C4" H 5588 4796 50  0000 L CNN
+F 0 "C6" H 5588 4796 50  0000 L CNN
 F 1 "47uF" H 5588 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 5500 4750 50  0001 C CNN
 F 3 "~" H 5500 4750 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "~" V 5500 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP_Small C6
+L Device:CP_Small C8
 U 1 1 659D4D00
 P 6000 5000
-F 0 "C6" H 6088 5046 50  0000 L CNN
+F 0 "C8" H 6088 5046 50  0000 L CNN
 F 1 "100uF" H 6088 4955 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x6.9" H 6000 5000 50  0001 C CNN
 F 3 "~" H 6000 5000 50  0001 C CNN
@@ -168,10 +168,10 @@ F 3 "~" H 6000 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Device:C_Small C4
 U 1 1 659D524C
 P 4000 5000
-F 0 "C2" H 4092 5046 50  0000 L CNN
+F 0 "C4" H 4092 5046 50  0000 L CNN
 F 1 "1uF" H 4092 4955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4000 5000 50  0001 C CNN
 F 3 "~" H 4000 5000 50  0001 C CNN
@@ -187,21 +187,21 @@ F 1 "OUT" H 6618 4266 50  0000 C CNN
 F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_03_P3.50mm" H 6700 4500 50  0001 C CNN
 F 3 "~" H 6700 4500 50  0001 C CNN
 	1    6700 4500
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J1
 U 1 1 659D7618
-P 3300 4500
-F 0 "J1" H 3218 4175 50  0000 C CNN
-F 1 "IN" H 3218 4266 50  0000 C CNN
-F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_03_P3.50mm" H 3300 4500 50  0001 C CNN
-F 3 "~" H 3300 4500 50  0001 C CNN
-	1    3300 4500
+P 2800 4500
+F 0 "J1" H 2718 4175 50  0000 C CNN
+F 1 "IN" H 2718 4266 50  0000 C CNN
+F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_03_P3.50mm" H 2800 4500 50  0001 C CNN
+F 3 "~" H 2800 4500 50  0001 C CNN
+	1    2800 4500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3500 4500 3750 4500
+	3000 4500 3250 4500
 Wire Wire Line
 	5000 4350 5000 4500
 Connection ~ 5000 4500
@@ -315,9 +315,9 @@ Wire Wire Line
 	6500 3500 6000 3500
 Connection ~ 6000 3500
 Wire Wire Line
-	3500 4600 3500 5500
+	3000 4600 3000 5500
 Wire Wire Line
-	3500 5500 4000 5500
+	3000 5500 3500 5500
 Wire Wire Line
 	4000 5100 4000 5500
 Connection ~ 4000 5500
@@ -326,9 +326,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 4900 4000 4500
 Wire Wire Line
-	3500 4400 3500 3500
+	3000 4400 3000 3500
 Wire Wire Line
-	3500 3500 4000 3500
+	3000 3500 3500 3500
 Wire Wire Line
 	4400 3050 4000 3050
 Wire Wire Line
@@ -350,27 +350,66 @@ VO+
 Text Label 5700 5500 0    50   ~ 0
 VO-
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR01
 U 1 1 659F404D
-P 3750 4650
-F 0 "#PWR0101" H 3750 4400 50  0001 C CNN
-F 1 "GND" H 3755 4477 50  0000 C CNN
-F 2 "" H 3750 4650 50  0001 C CNN
-F 3 "" H 3750 4650 50  0001 C CNN
-	1    3750 4650
+P 3250 4650
+F 0 "#PWR01" H 3250 4400 50  0001 C CNN
+F 1 "GND" H 3255 4477 50  0000 C CNN
+F 2 "" H 3250 4650 50  0001 C CNN
+F 3 "" H 3250 4650 50  0001 C CNN
+	1    3250 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 4650 3750 4500
-Connection ~ 3750 4500
+	3250 4650 3250 4500
+Connection ~ 3250 4500
 Wire Wire Line
-	3750 4500 4000 4500
+	3250 4500 3500 4500
 Text Label 4650 4000 0    50   ~ 0
 ADJ+
 Text Label 4650 5000 0    50   ~ 0
 ADJ-
-Text Label 3700 3500 0    50   ~ 0
+Text Label 3200 3500 0    50   ~ 0
 VI+
-Text Label 3700 5500 0    50   ~ 0
+Text Label 3200 5500 0    50   ~ 0
 VI-
+$Comp
+L Device:CP_Small C2
+U 1 1 659E64AB
+P 3500 5000
+F 0 "C2" H 3588 5046 50  0000 L CNN
+F 1 "10uF" H 3588 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3500 5000 50  0001 C CNN
+F 3 "~" H 3500 5000 50  0001 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 659E6D57
+P 3500 4000
+F 0 "C1" H 3588 4046 50  0000 L CNN
+F 1 "10uF" H 3588 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3500 4000 50  0001 C CNN
+F 3 "~" H 3500 4000 50  0001 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3900 3500 3500
+Wire Wire Line
+	3500 3500 4000 3500
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 4100 3500 4500
+Wire Wire Line
+	3500 4500 3500 4900
+Connection ~ 3500 4500
+Wire Wire Line
+	3500 5100 3500 5500
+Wire Wire Line
+	3500 5500 4000 5500
+Connection ~ 3500 5500
+Wire Wire Line
+	4000 4500 3500 4500
 $EndSCHEMATC
