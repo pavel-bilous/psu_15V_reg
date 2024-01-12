@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LM317/LM337 voltage regulator board"
+Date "2024-01-11"
+Rev "1.0"
+Comp "Pavlo's Lab"
 Comment1 ""
 Comment2 ""
 Comment3 ""
