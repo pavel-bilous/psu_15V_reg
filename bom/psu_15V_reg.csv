@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"H4,H3,H2,H1";"MountingHole_3.2mm_M3_Pad_Via";4;"MountingHole";;;
+2;"C2,C1";"CP_Elec_5x5.3";2;"10uF";;;
+3;"R4,R1";"R_1206_3216Metric";2;"120R";;;
+4;"R3,R2";"R_1206_3216Metric";2;"1K4";;;
+5;"C4,C3";"C_1206_3216Metric";2;"1uF";;;
+6;"U2";"TO-252-2";1;"LM337_TO252";;;
+7;"U1";"TO-252-2";1;"LM317_TO-252";;;
+8;"J2";"TerminalBlock_ Amphenol_01_03_P3.50mm";1;"OUT";;;
+9;"J1";"TerminalBlock_ Amphenol_01_03_P3.50mm";1;"IN";;;
+10;"D4,D3,D2,D1";"D_SMA";4;"M2";;;
+11;"C8,C7";"CP_Elec_8x6.9";2;"100uF";;;
+12;"C6,C5";"CP_Elec_6.3x5.9";2;"47uF";;;
